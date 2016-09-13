@@ -1,0 +1,10 @@
+# Hola mundo
+
+blablabla
+
+Contenedores ___efímeros___ por defecto
+- Cada apagado/reinicio los datos se pierden
+
+Para evitar esto están los __volúmenes__
+- Internal volume: directorio interno del container especificado será persistente
+- Shared volume: mapea un directorio del _host_ dentro del contenedor 

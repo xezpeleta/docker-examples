@@ -1,0 +1,6 @@
+# Dockerizando apps
+
+## Imágenes de Docker
+- Cada contenedor es una instancia de una imagen de Docker.
+- Se distribuyen a través de Docker Hub
+- Recomendado usar imágenes oficiales

@@ -1,0 +1,19 @@
+# Características Docker
+
+Inicialmente creado para desarrollo. Actualmente se usa en todo tipo de entornos.
+
+## Características
+- Entorno virutal basado en LXC
+- Implantación portable
+- Versionado
+- Reutilización de componentes
+- Repositorio de imágenes (__Docker Hub__)
+
+## Ventajas
+- __Difusión simple__ y rápida de la aplicación
+- Fácil __implantación__ y __escalado__
+- Mayor __densidad__ y __carga__
+- Resultado: gestión eficaz
+
+## ¿Funciona en Windows y en MacOS?
+- Boot2Docker

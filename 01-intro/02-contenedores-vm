@@ -1,0 +1,14 @@
+# Contenedores vs VM
+
+## Máquinas virtuales
+
+Incluyen la aplicación, binarios y librerías necesarias, el Sistema Operativo guest (muchos GBs)
+
+![Esquema VM](https://www.docker.com/sites/default/files/WhatIsDocker_2_VMs_0-2_2.png)
+
+
+## Contenedores
+
+Incluyen la aplicación y sus dependencias. Comparten el Kernel con el resto de contenedores. Totalmente portables.
+
+![Esquema containers](https://www.docker.com/sites/default/files/WhatIsDocker_3_Containers_2_0.png)

@@ -1,0 +1,59 @@
+## Dockerizando apps más complejas
+
+Entorno ideal: cada componente en su propio contenedor
+- Un contenedor para el servidor web
+- Otro para el servidor MySQL
+- Otro para el PHP
+- ...
+
+¿Cómo gestionar tantos contenedores?
+
+## Solución: Docker Compose
+
+Orquestración de contenedores Docker:
+- Arranque simultáneo
+- Parada simultánea
+- Comunicación entre contenedores
+
+### Comunicación entre imágenes
+1. Variables de entorno
+2. _Docker data volume_ (interno o compartido)
+3. Comunicación de red
+
+## Instalación de Docker Composer
+
+Instalar `python-pip` como requisito:
+
+```
+$ sudo apt-get -y install python-pip
+```
+
+Ahora es posible instalar Docker Compose:
+
+```
+$ sudo pip install docker-compose
+```
+
+## Ejecutando un container
+
+Creamos un directorio y dentro un fichero `docker-compose.yaml`:
+
+```
+$ mkdir hello-world
+$ cd hello-world
+$ nano docker-compose.yml
+```
+
+Añadir el siguiente contenido en el fichero:
+
+```yaml
+my-test:
+  image: hello-world
+```
+
+La primera línea será parte del nombre del contenedor. La segunda línea especifica qué imágen usar para crear el contenedor.
+
+<!--
+References:
+- https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-14-04
+-->
