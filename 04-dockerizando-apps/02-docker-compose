@@ -56,4 +56,5 @@ La primera línea será parte del nombre del contenedor. La segunda línea espec
 <!--
 References:
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-14-04
+- https://docs.docker.com/compose/overview/
 -->
